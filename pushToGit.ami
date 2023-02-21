@@ -199,7 +199,7 @@
             "title":"Window - 2",
             "top":100,
             "width":768,
-            "zindex":3
+            "zindex":2
           }
         ]
       }
