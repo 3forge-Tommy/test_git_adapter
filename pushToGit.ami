@@ -170,6 +170,7 @@
     {
       "portletBuilderId":"amidesktop",
       "portletConfig":{
+        "active":"__COMMAND1",
         "amiPanelId":"@DESKTOP",
         "amiStyle":{
           "pt":"LAYOUT_DEFAULT"
@@ -199,7 +200,7 @@
             "title":"Window - 2",
             "top":100,
             "width":768,
-            "zindex":2
+            "zindex":3
           }
         ]
       }
@@ -660,6 +661,12 @@
         "scrollToBottomOnAppend":false,
         "showCommandMenu":true,
         "showLastRuntime":true,
+        "sorting":[
+          {
+            "id":"AR",
+            "order":"dsc"
+          }
+        ],
         "titlePnl":{
           "title":"_COMMAND"
         },
